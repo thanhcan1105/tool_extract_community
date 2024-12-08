@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tool_extract_community/module/models/addon_model.dart';
 import 'dart:ui' as ui;
@@ -24,16 +25,32 @@ class _DetailAddonScreenState extends State<DetailAddonScreen> {
     var size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Detail Addon Screen'),
+        title: const Text('Detail Addon Screen'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Container(
+          SizedBox(
             height: 400,
             child: screenViewModel(context, size),
           ),
           Text('addonName: ${widget.addonModel.addonName}'),
           Text('modelsRP: ${widget.addonModel.modelsRP.name}'),
+          Row(
+            children: [
+              const Text("animations: "),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: List.generate(
+                    widget.addonModel.animationsRP!.length,
+                    (index) => Text('${widget.addonModel.animationsRP![index].name}'),
+                  ),
+                ),
+              ),
+            ],
+          ),
           Text('textureRP: ${widget.addonModel.textureRP!.name}'),
         ],
       ),
@@ -97,12 +114,13 @@ class _DetailAddonScreenState extends State<DetailAddonScreen> {
                   valueListenable: imgData,
                   builder: (context, value, child) {
                     return Container(
+                      constraints: const BoxConstraints(maxWidth: 400),
                       height: 350,
                       width: size.width,
                       margin: const EdgeInsets.only(bottom: 20),
                       decoration: BoxDecoration(
-                        // color: Colors.amber.withOpacity(.3),
-                        gradient: kGradientItem,
+                        color: Colors.grey.withOpacity(.3),
+                        // gradient: kGradientItem,
                         borderRadius: BorderRadius.circular(5),
                       ),
                       child: value.isEmpty

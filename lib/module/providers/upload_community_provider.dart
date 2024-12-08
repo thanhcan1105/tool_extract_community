@@ -63,15 +63,19 @@ class UploadCommunityProvider with ChangeNotifier {
   }
 
   Future<void> _handleExtractData() async {
-    final bytes = await rootBundle.load("assets/BicyclesCraftMinecraftFurnitureMob.zip");
+    // final bytes = await rootBundle.load("assets/BicyclesCraftMinecraftFurnitureMob.zip");
+
+    final bytes = await rootBundle.load("assets/GotoPicnicAddonMinecraftFurnitureMod.zip");
     Archive archiveRaw = ZipDecoder().decodeBytes(bytes.buffer.asUint8List());
     Archive archive = Archive();
     for (final file in archiveRaw) {
-      if (file.name.contains(".json")) {
-        archive.addFile(file);
-      }
-      if (file.name.contains(".png")) {
-        archive.addFile(file);
+      if (!file.name.contains("__MACOSX") && !file.name.contains(".DS_Store")) {
+        if (file.name.contains(".json")) {
+          archive.addFile(file);
+        }
+        if (file.name.contains(".png")) {
+          archive.addFile(file);
+        }
       }
     }
 
@@ -96,7 +100,6 @@ class UploadCommunityProvider with ChangeNotifier {
 
       //
       if (file.name.contains("$resource/animations/")) {
-        print(file);
         if (file.isFile) {
           _modelAllDataAddon.listAnimationsRP.add(AddonExtractModel(name: file.name, data: file));
         }
@@ -153,12 +156,29 @@ class UploadCommunityProvider with ChangeNotifier {
 
       var entity = fileContent['minecraft:client_entity']['description']['geometry'];
 
+      //get animation
+      var animationsRPName = fileContent["minecraft:client_entity"]["description"]['animations'];
+      if(animationsRPName != null){
+        for (var element in _modelAllDataAddon.listAnimationsRP) {
+          var animationsRPContent = await repairJSData(element.data?.content);
+          // print(animationsRPContent['animations'].keys);
+          // print(const JsonEncoder.withIndent("  ").convert(animationsRPContent));
+          for (var e1 in animationsRPName.values) {
+            if (animationsRPContent['animations'].keys.toString().contains(e1)) {
+              if (!defaultData.animationsRP!.any((e2) => e2.name!.contains(element.name!))) {
+                defaultData.animationsRP!.add(AddonDataModel(name: element.name, data: jsonEncode(animationsRPContent)));
+              }
+            }
+          }
+        }
+      }
+
       // get model
       var model3DName = fileContent['minecraft:client_entity']['description']['geometry']['default'];
       for (var element in _modelAllDataAddon.listModelRP) {
         if (element.name == model3DName) {
-          var jsonElement = await repairJSData(element.data?.content);
-          defaultData.modelsRP = AddonDataModel(name: element.name, data: jsonEncode(jsonElement));
+          var model3DContent = await repairJSData(element.data?.content);
+          defaultData.modelsRP = AddonDataModel(name: element.name, data: jsonEncode(model3DContent));
         }
       }
 

@@ -1,16 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 import 'package:tool_extract_community/module/screens/detail_addon_screen.dart';
-import 'package:url_launcher/url_launcher.dart';
-
-import '../components/const.dart';
-import '../components/custom_appbar.dart';
-import '../components/custom_background.dart';
-import '../components/text_default.dart';
 import '../providers/upload_community_provider.dart';
 
 class MainScreen extends StatefulWidget {
