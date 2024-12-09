@@ -39,13 +39,27 @@ class _DetailAddonScreenState extends State<DetailAddonScreen> {
           Text('modelsRP: ${widget.addonModel.modelsRP.name}'),
           Row(
             children: [
-              const Text("animations: "),
+              _buildTitleText("animations resource: "),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: List.generate(
                     widget.addonModel.animationsRP!.length,
                     (index) => Text('${widget.addonModel.animationsRP![index].name}'),
+                  ),
+                ),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              _buildTitleText("animation controllers resource: "),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: List.generate(
+                    widget.addonModel.animationControllersRP!.length,
+                    (index) => Text('${widget.addonModel.animationControllersRP![index].name}'),
                   ),
                 ),
               ),
@@ -157,6 +171,15 @@ class _DetailAddonScreenState extends State<DetailAddonScreen> {
             ],
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildTitleText(String title) {
+    return Text(
+      title,
+      style: const TextStyle(
+        fontWeight: FontWeight.bold,
       ),
     );
   }
