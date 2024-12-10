@@ -52,21 +52,15 @@ class UploadCommunityProvider with ChangeNotifier {
   }
 
   Future<void> _extractAddon() async {
-    // print("extractAddon");
-    // _clearData();
-
     await Future.delayed(const Duration(milliseconds: 50));
     await _handleExtractData();
     // await _handleDataEntity();
     await _handleDataBlock();
-    // isLoading.value = false;
     notifyListeners();
   }
 
   Future<void> _handleExtractData() async {
-    // final bytes = await rootBundle.load("assets/BicyclesCraftMinecraftFurnitureMob.zip");
-    final bytes = await rootBundle.load("assets/GotoPicnicAddonMinecraftFurnitureMod.zip");
-    // final bytes = await rootBundle.load("assets/VAZ-2121 Niva Addon [UPDATE] by BLACKOUT1987.mcaddon.zip");
+    final bytes = await rootBundle.load("assets/HelicoptersFunctionalFlying.zip");
 
     Archive archiveRaw = ZipDecoder().decodeBytes(bytes.buffer.asUint8List());
     Archive archive = Archive();
