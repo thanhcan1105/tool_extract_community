@@ -1,0 +1,24 @@
+I hope u help us, and don't break our copyright.
+If not we will have to stop this project.
+
+Creation Date: 2022-05-05
+Update Date: 2023-12-05
+
+The guys who made it happen [Main Developers]:
+- Gabriel Aplok [Main Developer].
+
+I'm very grateful to these guys/orgs, they are cool [Contributions]:
+- HSK [Bullet Hole Code].
+- Bedrock OSS Community [Docs].
+- NPM [Scripting API Docs].
+- Our Great Discord Community [Feedback].
+
+Notes:
+- I hope you have common sense and don't steal anything from me.
+- All Texture's here's copyrighted, except some sounds.
+- Ah, this project is based on games like "Scape From Tarkov", "Insurgency: Sandstorm" and "Road to Vostok".
+
+I made this with love for u my baby <3!
+
+© This Project is in under COPYRIGHT for the ["FireWave Interactive"]
+DON'T no COPY or PUBLISH this assets in another ["website / app / addon / mod"] WITHOUT PERMISSION.

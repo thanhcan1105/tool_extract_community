@@ -1,0 +1,2 @@
+execute at @s if entity @s[hasitem={item=gabrielaplok:silencer, location=slot.inventory, slot=2}] run fill ~~1~1~~1~2 gabrielaplok:muzzle_light_silenced replace air
+execute at @s unless entity @s[hasitem={item=gabrielaplok:silencer, location=slot.inventory, slot=2}] run fill ~~1~1~~1~3 gabrielaplok:muzzle_light replace air

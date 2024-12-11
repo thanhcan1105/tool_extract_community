@@ -1,0 +1,1 @@
+{"format_version":"1.20.40","minecraft:item":{"description":{"identifier":"gabrielaplok:bullet_9x19pr","menu_category":{"category":"equipment","group":"Bullets"}},"components":{"minecraft:display_name":{"value":"item.bullet_9x19pr.name"},"minecraft:icon":{"texture":"bullet_9x19pr"}}}}

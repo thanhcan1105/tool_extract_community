@@ -1,0 +1,9 @@
+execute as @s[hasitem={item=gabrielaplok:ak47, location=slot.weapon.mainhand}] run function guns/bullet_counter/ak47
+execute as @s[hasitem={item=gabrielaplok:awp, location=slot.weapon.mainhand}] run function guns/bullet_counter/awp
+execute as @s[hasitem={item=gabrielaplok:desert_eagle, location=slot.weapon.mainhand}] run function guns/bullet_counter/desert_eagle
+execute as @s[hasitem={item=gabrielaplok:fnfal, location=slot.weapon.mainhand}] run function guns/bullet_counter/fnfal
+execute as @s[hasitem={item=gabrielaplok:glock17, location=slot.weapon.mainhand}] run function guns/bullet_counter/glock17
+execute as @s[hasitem={item=gabrielaplok:glock18, location=slot.weapon.mainhand}] run function guns/bullet_counter/glock18
+execute as @s[hasitem={item=gabrielaplok:m4a1, location=slot.weapon.mainhand}] run function guns/bullet_counter/m4a1
+execute as @s[hasitem={item=gabrielaplok:mossberg, location=slot.weapon.mainhand}] run function guns/bullet_counter/mossberg
+execute as @s[hasitem={item=gabrielaplok:mp5a5, location=slot.weapon.mainhand}] run function guns/bullet_counter/mp5a5

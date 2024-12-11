@@ -1,0 +1,157 @@
+{
+    "format_version": "1.20.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gabrielaplok:explosive_crate",
+            "menu_category": {
+                "category": "construction",
+                "group": "Loot"
+            },
+            "states": {
+                "gabrielaplok:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -6
+                ],
+                "size": [
+                    16,
+                    6,
+                    12
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.75
+            },
+            "minecraft:display_name": "tile.explosive_crate.name",
+            "minecraft:geometry": "geometry.explosive_crate",
+            "minecraft:light_dampening": 0,
+            "minecraft:loot": "loot_tables/blocks/loot/explosive_crate.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "explosive_crate",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -6
+                ],
+                "size": [
+                    16,
+                    6,
+                    12
+                ]
+            },
+            "minecraft:on_interact": {
+                "event": "gabrielaplok:give"
+            },
+            "minecraft:on_player_placing": {
+                "event": "gabrielaplok:rotation"
+            },
+            "minecraft:queued_ticking": {
+                "looping": true,
+                "interval_range": [
+                    2,
+                    2
+                ],
+                "on_tick": {
+                    "event": "gabrielaplok:check_for_explode"
+                }
+            },
+            "tag:wood": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 0",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 1",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 2",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 3",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "events": {
+            "gabrielaplok:rotation": {
+                "set_block_state": {
+                    "gabrielaplok:rotation": "q.cardinal_facing_2d - 2"
+                }
+            },
+            "gabrielaplok:give": {
+                "sequence": [
+                    {
+                        "spawn_loot": {
+                            "table": "loot_tables/blocks/loot/explosive_crate.json"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "setblock ~~~ air",
+                                "playsound mob.zombie.woodbreak @a[r=14] ~~~ 1 1 0.01"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "gabrielaplok:check_for_explode": {
+                "run_command": {
+                    "command": [
+                        "execute if entity @e[family=bullet, r=0.665, c=1] run function block/explode_explosive_box"
+                    ]
+                }
+            }
+        }
+    }
+}

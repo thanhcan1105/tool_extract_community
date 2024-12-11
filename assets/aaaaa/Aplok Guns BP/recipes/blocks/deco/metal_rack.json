@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"gabrielaplok:metal_rack"},"tags":["crafting_table"],"pattern":["ABA","AAA","ABA"],"key":{"A":{"item":"minecraft:iron_ingot"},"B":{"item":"minecraft:paper"}},"unlock":[{"item":"minecraft:iron_ingot"}],"result":{"item":"gabrielaplok:metal_rack","count":4}}}

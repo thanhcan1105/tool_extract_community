@@ -1,0 +1,1 @@
+{"format_version":"1.20.40","minecraft:item":{"description":{"identifier":"gabrielaplok:silencer","menu_category":{"category":"equipment","group":"Attachments"}},"components":{"minecraft:display_name":{"value":"item.silencer.name"},"minecraft:icon":{"texture":"silencer"},"minecraft:max_stack_size":1,"tag:is_attachment":{},"tag:is_silencer":{}}}}

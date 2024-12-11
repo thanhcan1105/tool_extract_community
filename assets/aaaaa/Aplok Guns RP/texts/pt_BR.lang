@@ -1,0 +1,85 @@
+entity.gabrielaplok:explosive_crate_explosion.name=Caixa explosiva	#
+entity.gabrielaplok:landmine_explosion.name=Mina terrestre	#
+entity.gabrielaplok:bullet.name=Bala	#
+
+item.gasmask.name=Máscara de gás	#
+item.gasmask.description=Proteção de náusea e veneno	#
+item.helmet_military.name=Capacete militar	#
+item.juggernaut_boots.name=Botas Juggernaut	#
+item.juggernaut_chestplate.name=Peitoral Juggernaut	#
+item.juggernaut_helmet.name=Capacete Juggernaut	#
+item.juggernaut_leggings.name=Calça Juggernaut	#
+item.nv_goggles.name=Óculos de visão noturna	#
+item.vest_6b3.name=Armadura corporal 6B3	#
+
+item.acog_sight.name=Mira ACOG	#
+item.eotech_sight.name=Mira EOTech	#
+item.foregrip.name=Foregrip	#
+item.laser.name=Laser da M4A1	#
+item.scope_hp.name=Mira de longo alcance	#
+item.scope_Lp.name=Mira de curto alcance	#
+item.silencer.name=Silenciador	#
+
+item.gun_backpack.name=Mochila de arma [Não está funcionando por enquanto]	#
+
+item.bullet_9x19pr.name=Bala 9x19mm Parabellum	#
+item.bullet_12gauge.name=Cartucho de calibre 12	#
+item.bullet_50ae.name=Cartucho .50 AE	#
+item.bullet_556x45.name=Bala 5,56x45mm OTAN	#
+item.bullet_762x39.name=Bala 7,62x39mm	#
+item.bullet_762x51.name=Bala 7,62x51mm OTAN	#
+
+item.cooked_flesh.name=Carne cozida	#
+
+item.ak47_mag.name=Pente da AK-47 [7,62x39mm]	#
+item.awp_mag.name=Pente da AWP [7,62x51mm OTAN]	#
+item.desert_eagle_mag.name=Pente da Desert Eagle [.50 AE]	#
+item.fnfal_mag.name=Pente da FN FAL [7,62x51mm OTAN]
+item.glock17_magname=Pente da Glock 17 [9x19mm Parabellum]	#
+item.glock18_magname=Pente da Glock 18c [9x19mm Parabellum]	#
+item.m4a1_mag.name=Pente da M4A1 [5,56x45mm OTAN]	#
+item.mp5a5_mag.name=Pente da HK MP5-A5 [9x19mm Parabellum]
+
+item.blueprint_bundle.name=Pacote de Blueprint	#
+item.bullet_gunpowder.name=Pólvora para bala	#
+item.copper_nugget.name=Pepita de cobre	#
+item.gunmetal_ingot.name=Lingote de metal	#
+item.gunmetal_nugget.name=Pepita de metal	#
+item.gunmetal_scrap.name=Sucata de metal	#
+
+item.bandage.name=Bandagem	#
+item.bandage_military.name=Bandagem Militar	#
+
+item.heavy_barrel.name=Cano pesado	#
+item.heavy_body.name=Corpo pesado	#
+item.mask_filter.name=Filtro da Máscara de Gás	#
+item.medium_barrel.name=Cano médio	#
+item.medium_body.name=Corpo médio	#
+item.medium_handle.name=Cabo médio	#
+item.medium_stock.name=Estoque médio	#
+item.small_barrel.name=Cano pequeno	#
+item.small_body.name=Corpo pequeno	#
+item.small_handle.name=Cabo pequeno	#
+item.small_stock.name=Estoque pequeno	#
+
+item.m67_grenade.name=Granada M67 [Experimental]	#
+
+tile.hazard_block.name=Bloco de perigo	#
+tile.hedgehog.name=Czech hedgehog	#
+tile.landmine.name=Mina terrestre	#
+tile.metal_rack.name=Rack metálico	#
+tile.sandbag.name=Saco de arreia 	#
+tile.wooden_barricade.name=Barricada de madeira	#
+tile.wooden_crate.name=Caixote de madeira	#
+
+tile.ammo_crate.name=Caixa de munição	#
+tile.explosive_crate.name=Caixa de explosivos	#
+tile.workbench.name=Bancada de armas	#
+
+game.message.welcome_2=Desenvolvedor: §b@GabrielAplok
+game.message.welcome_3=Distribuidores: §a@MCPEDL§r and §a@modbay_
+game.message.welcome_4=Servidor do Discord: §bhttps://gabriel-aplok.github.io/discord
+game.message.welcome_5=§o§eA melhor experiência de armamento militar compatível com modo sobrevivência em todo o Minecraft Bedrock!
+game.message.welcome_6=§o§cObrigado por me apoiar! E por favor leia esse artigo §ahttps://gabriel-aplok.github.io/projects/aplok-guns.html§c antes de me fazer qualquer pergunta comun.
+
+game.tip.reloading=> RECARREGANDO <	#

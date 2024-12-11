@@ -1,0 +1,3 @@
+titleraw @s[scores={glock18=11..}] actionbar {"rawtext":[{"text":"[ §7"},{"score":{"name":"@s","objective":"glock18"}},{"text":"§r/17 ]"}]}
+titleraw @s[scores={glock18=1..10}] actionbar {"rawtext":[{"text":"[ §c"},{"score":{"name":"@s","objective":"glock18"}},{"text":"§r/17 ]"}]}
+titleraw @s[scores={glock18=..0}] actionbar {"rawtext":[{"text":"[ §4"},{"score":{"name":"@s","objective":"glock18"}},{"text":"§r/17 ]"}]}

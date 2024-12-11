@@ -1,0 +1,48 @@
+{
+    "format_version": "1.20.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gabrielaplok:muzzle_light_silenced"
+        },
+        "components": {
+            "minecraft:breathability": "air",
+            "minecraft:collision_box": false,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 999999
+            },
+            "minecraft:display_name": "Muzzle Light",
+            "minecraft:flammable": false,
+            "minecraft:geometry": "geometry.none",
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 4,
+            "minecraft:material_instances": {
+                "*": {
+                    "ambient_occlusion": false,
+                    "face_dimming": false,
+                    "render_method": "opaque",
+                    "texture": "none"
+                }
+            },
+            "minecraft:queued_ticking": {
+                "looping": true,
+                "interval_range": [
+                    1,
+                    1
+                ],
+                "on_tick": {
+                    "event": "gabrielaplok:remove"
+                }
+            },
+            "minecraft:selection_box": false
+        },
+        "events": {
+            "gabrielaplok:remove": {
+                "run_command": {
+                    "command": [
+                        "setblock ~~~ air"
+                    ]
+                }
+            }
+        }
+    }
+}

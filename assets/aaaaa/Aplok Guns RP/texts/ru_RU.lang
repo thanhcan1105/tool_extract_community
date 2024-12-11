@@ -1,0 +1,85 @@
+entity.gabrielaplok:explosive_crate_explosion.name=Ящик со взрывчаткой	#
+entity.gabrielaplok:landmine_explosion.name=Наземная мина	#
+entity.gabrielaplok:bullet.name=Пуля	#
+
+item.gasmask.name=Противогаз	#
+item.gasmask.description=Защита от тошноты и яда	#
+item.helmet_military.name=Военный шлем	#
+item.juggernaut_boots.name=Ботинки Джаггернаута	#
+item.juggernaut_chestplate.name=Нагрудник Джаггернаута	#
+item.juggernaut_helmet.name=Шлем Джаггернаута	#
+item.juggernaut_leggings.name=Штаны Джаггернаута	#
+item.nv_goggles.name=Очки ночного видения	#
+item.vest_6b3.name=Нательный доспех 6B3	#
+
+item.acog_sight.name=Прицел ACOG	#
+item.eotech_sight.name=Прицел EOTech	#
+item.foregrip.name=Захват	#
+item.laser.name=Лазер M4A1	#
+item.scope_hp.name=Прицел большой дальности	#
+item.scope_Lp.name=Прицел ближнего действия	#
+item.silencer.name=Глушитель	#
+
+item.gun_backpack.name=Рюкзак с оружием [пока не работает]	#
+
+item.bullet_9x19pr.name=Пуля Парабеллум 9x19 мм	#
+item.bullet_12gauge.name=Патрон 12 калибра	#
+item.bullet_50ae.name=Патрон .50 AE	#
+item.bullet_556x45.name=Пуля НАТО 5,56x45 мм	#
+item.bullet_762x39.name=Пуля 7,62x39 мм	#
+item.bullet_762x51.name=Пуля НАТО 7,62x51 мм	#
+
+item.cooked_flesh.name=Приготовленное мясо	#
+
+item.ak47_mag.name=Магазин АК-47 [7,62x39 мм]	#
+item.awp_mag.name=Журнал AWP [7,62x51 мм НАТО]	#
+item.desert_eagle_mag.name=Расческа Desert Eagle [.50 AE]	#
+item.fnfal_mag.name=Журнал FN FAL [7,62x51 мм НАТО]
+item.glock17_magname=Магазин Glock 17 [Parabellum 9x19 мм]	#
+item.glock18_magname=Магазин Glock 18c [Parabellum 9x19 мм]	#
+item.m4a1_mag.name=Журнал M4A1 [5,56x45 мм НАТО]	#
+item.mp5a5_mag.name=Журнал HK MP5-A5 [Parabellum 9x19 мм]
+
+item.blueprint_bundle.name=Пакет чертежей	#
+item.bullet_gunpowder.name=Порох для пули	#
+item.copper_nugget.name=Медный самородок	#
+item.gunmetal_ingot.name=Металлический слиток	#
+item.gunmetal_nugget.name=Металлический самородок	#
+item.gunmetal_scrap.name=Металлолом	#
+
+item.bandage.name=Бинт	#
+item.bandage_military.name=Военная повязка	#
+
+item.heavy_barrel.name=Тяжелая бочка	#
+item.heavy_body.name=Тяжёлое тело	#
+item.mask_filter.name=Фильтр противогаза	#
+item.medium_barrel.name=Средняя бочка	#
+item.medium_body.name=Тело среднего размера	#
+item.medium_handle.name=Средняя ручка	#
+item.medium_stock.name=Средний запас	#
+item.small_barrel.name=Маленькая бочка	#
+item.small_body.name=Маленькое тело	#
+item.small_handle.name=Маленькая ручка	#
+item.small_stock.name=Небольшой запас	#
+
+item.m67_grenade.name=Граната M67 [Экспериментальная]	#
+
+tile.hazard_block.name=Блок опасности	#
+tile.hedgehog.name=Чешский еж	#
+tile.landmine.name=Наземная мина	#
+tile.metal_rack.name=Металлическая стойка	#
+tile.sandbag.name=Мешок с песком	#
+tile.wooden_barricade.name=Деревянная баррикада	#
+tile.wooden_crate.name=Деревянный ящик	#
+
+tile.ammo_crate.name=Ящик с боеприпасами	#
+tile.explosive_crate.name=Ящик со взрывчаткой	#
+tile.workbench.name=Скамейка для оружия	#
+
+game.message.welcome_2=Разработчик: §b@GabrielAplok	#
+game.message.welcome_3=Дистрибьюторы: §a@MCPEDL§r и §a@modbay_	#
+game.message.welcome_4=Сервер Discord: §bhttps://gabriel-aplok.github.io/discord	#
+game.message.welcome_5=§o§eЛучший опыт использования военного оружия, совместимого с режимом выживания, во всем Minecraft Bedrock!	#
+game.message.welcome_6=§o§cСпасибо, что поддержали меня!  И, пожалуйста, прочитайте эту статью §ahttps://gabriel-aplok.github.io/projects/aplok-guns.html§c, прежде чем задавать мне какие-либо общие вопросы.	#
+
+game.tip.reloading=> ПЕРЕЗАГРУЗКА <	#

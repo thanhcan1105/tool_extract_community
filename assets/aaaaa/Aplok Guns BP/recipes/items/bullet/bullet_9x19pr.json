@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shapeless":{"description":{"identifier":"gabrielaplok:bullet_9x19pr"},"tags":["stonecutter"],"ingredients":[{"item":"gabrielaplok:bullet_gunpowder"}],"unlock":[{"item":"gabrielaplok:bullet_gunpowder"}],"result":{"item":"gabrielaplok:bullet_9x19pr","count":6}}}

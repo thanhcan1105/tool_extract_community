@@ -1,0 +1,1 @@
+{"format_version":"1.10.0","render_controllers":{"controller.render.nv_goggles":{"geometry":"Geometry.nv_goggles","materials":[{"*":"Material.nv_goggles"}],"textures":["Texture.nv_goggles"],"on_fire_color":{},"is_hurt_color":{},"light_color_multiplier":1,"ignore_lighting":true}}}

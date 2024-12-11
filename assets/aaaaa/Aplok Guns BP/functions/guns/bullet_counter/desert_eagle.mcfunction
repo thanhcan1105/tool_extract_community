@@ -1,0 +1,3 @@
+titleraw @s[scores={desert_eagle=6..}] actionbar {"rawtext":[{"text":"[ §7"},{"score":{"name":"@s","objective":"desert_eagle"}},{"text":"§r/10 ]"}]}
+titleraw @s[scores={desert_eagle=1..5}] actionbar {"rawtext":[{"text":"[ §c"},{"score":{"name":"@s","objective":"desert_eagle"}},{"text":"§r/10 ]"}]}
+titleraw @s[scores={desert_eagle=..0}] actionbar {"rawtext":[{"text":"[ §4"},{"score":{"name":"@s","objective":"desert_eagle"}},{"text":"§r/10 ]"}]}

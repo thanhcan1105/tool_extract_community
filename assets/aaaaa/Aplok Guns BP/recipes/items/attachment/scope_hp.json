@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"gabrielaplok:scope_hp"},"tags":["crafting_table"],"pattern":["BBB","ACA","BBB"],"key":{"A":{"item":"minecraft:glass"},"B":{"item":"gabrielaplok:gunmetal_ingot"},"C":{"item":"minecraft:redstone"}},"unlock":[{"item":"gabrielaplok:gunmetal_ingot"}],"result":{"item":"gabrielaplok:scope_hp"}}}

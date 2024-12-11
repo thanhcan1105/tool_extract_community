@@ -1,0 +1,101 @@
+{
+    "format_version": "1.20.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gabrielaplok:workbench",
+            "menu_category": {
+                "category": "construction",
+                "group": "Tools"
+            },
+            "states": {
+                "gabrielaplok:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "components": {
+            "minecraft:crafting_table": {
+                "crafting_tags": [
+                    "workbench"
+                ],
+                "table_name": "ui.workbench"
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 2
+            },
+            "minecraft:display_name": "tile.workbench.name",
+            "minecraft:geometry": "geometry.workbench",
+            "minecraft:light_dampening": 0,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "workbench",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:on_player_placing": {
+                "event": "gabrielaplok:rotation"
+            },
+            "tag:metal": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 0",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 1",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 2",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 3",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "events": {
+            "gabrielaplok:rotation": {
+                "set_block_state": {
+                    "gabrielaplok:rotation": "q.cardinal_facing_2d - 2"
+                }
+            }
+        }
+    }
+}

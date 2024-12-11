@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:attachable":{"description":{"identifier":"gabrielaplok:helmet_military","materials":{"default":"entity_alphatest"},"textures":{"default":"textures/models/wearable/helmet_military"},"geometry":{"default":"geometry.helmet_military"},"scripts":{"parent_setup":"v.helmet_layer_visible = 0;"},"render_controllers":["controller.render.default"]}}}

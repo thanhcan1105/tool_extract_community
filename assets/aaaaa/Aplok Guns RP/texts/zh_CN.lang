@@ -1,0 +1,97 @@
+## Translation by【WshtxLonely的个人空间-哔哩哔哩】 https://b23.tv/npvgZRy
+
+entity.gabrielaplok:explosive_crate_explosion.name=炸药箱	#
+entity.gabrielaplok:landmine_explosion.name=地雷	#
+entity.gabrielaplok:bullet.name=子弹	#
+
+item.gasmask.name=防毒面具	#
+item.gasmask.description=防止恶心和中毒	#
+item.helmet_military.name=军用头盔	#
+item.juggernaut_boots.name=主宰靴子	#
+item.juggernaut_chestplate.name=主宰胸甲	#
+item.juggernaut_helmet.name=主宰头盔	#
+item.juggernaut_leggings.name=主宰护腿	#
+item.nv_goggles.name=夜视仪	#
+item.vest_6b3.name=6B3防弹衣	#
+
+item.acog_sight.name=ACOG瞄准镜	#
+item.eotech_sight.name=EOTech全息瞄准镜	#
+item.foregrip.name=前握把	#
+item.laser.name=M4A1激光瞄准镜	#
+item.scope_hp.name=HP瞄准镜	#
+item.scope_Lp.name=LP瞄准镜	#
+item.silencer.name=消音器	#
+
+item.gun_backpack.name=枪支背包[目前无法作用]	#
+
+item.cooked_flesh.name=熟肉	#
+
+item.bullet_9x19pr.name=9x19mm Parabellum子弹	#
+item.bullet_12gauge.name=12口径霰弹	#
+item.bullet_50ae.name=.50 AE弹	#
+item.bullet_556x45.name=5.56x45mm NATO子弹	#
+item.bullet_762x39.name=7.62x39mm子弹	#
+item.bullet_762x51.name=7.62x51mm NATO子弹	#
+
+item.ak47.name=AK-47	#
+item.awp.name=AWP	#
+item.desert_eagle.name=Desert Eagle	#
+item.fnfal.name=FN FAL	#
+item.glock17.name=Glock 17	#
+item.glock18.name=Glock 18c	#
+item.m4a1.name=M4A1	#
+item.mossberg.name=Mossberg 500	#
+item.mp5a5.name=HK MP5-A5	#
+
+item.ak47_mag.name=AK-47 30发弹夹 [7.62x39mm]	#
+item.awp_mag.name=AWP 10发弹夹 [7.62x51mm NATO]	#
+item.desert_eagle_mag.name=Desert Eagle 10发弹夹 [.50 AE]	#
+item.fnfal_mag.name=FN FAL 20发弹夹 [7.62x51mm NATO]	#
+item.glock17_mag.name=Glock 17 17发弹夹 [9x19mm Parabellum]	#
+item.glock18_mag.name=Glock 18c 17发弹夹 [9x19mm Parabellum]	#
+item.m4a1_mag.name=M4A1 30发弹夹 [5.56x45mm NATO]	#
+item.mp5a5_mag.name=HK MP5-A5 30发弹夹 [9x19mm Parabellum]	#
+
+item.blueprint_bundle.name=蓝图捆绑包	#
+item.bullet_gunpowder.name=子弹火药	#
+item.copper_nugget.name=铜粒	#
+item.gunmetal_ingot.name=炮铜锭	#
+item.gunmetal_nugget.name=青铜金块	#
+item.gunmetal_scrap.name=炮铜废料	#
+
+item.bandage.name=绷带	#
+item.bandage_military.name=军用绷带	#
+
+item.heavy_barrel.name=重型枪管
+item.heavy_body.name=重型枪身	#
+item.mask_filter.name=防毒面具过滤器	#
+item.medium_barrel.name=中型枪管	#
+item.medium_body.name=中型枪身	#
+item.medium_handle.name=中型握柄	#
+item.medium_stock.name=中型枪托	#
+item.small_barrel.name=小型枪管	#
+item.small_body.name=小型枪身	#
+item.small_handle.name=小型握把	#
+item.small_stock.name=小型枪托	#
+
+item.m67_grenade.name=M67手榴弹[实验]	#
+
+tile.hazard_block.name=危险方块	#
+tile.hedgehog.name=反坦克拒马	#
+tile.landmine.name=地雷	#
+tile.metal_rack.name=金属支架	#
+tile.sandbag.name=沙袋	#
+tile.wooden_barricade.name=木制挡板	#
+tile.wooden_crate.name=板条箱	#
+
+tile.ammo_crate.name=弹药箱	#
+tile.explosive_crate.name=炸药箱	#
+tile.workbench.name=枪支工作台	#
+
+game.message.welcome_2=作者和开发者: §b@GabrielAplok	#
+game.message.welcome_3=经销: §a@MCPEDL§r and §a@modbay_	#
+game.message.welcome_4=Discord服务器: §bhttps://gabriel-aplok.github.io/discord	#
+game.message.welcome_5=§o§e在Minecraft Bedrock获得生存最友好军事装备体验！	#
+game.message.welcome_6=§o谢谢你对我的支持！在问我任何普通问题之前。请阅读本文中的所有信息 §ahttps://gabriel-aplok.github.io/projects/aplok-guns.	#
+
+game.tip.reloading=> 换弹中 <	#

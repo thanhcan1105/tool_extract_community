@@ -1,0 +1,1 @@
+{"format_version":"1.20.40","minecraft:item":{"description":{"identifier":"gabrielaplok:eotech_sight","menu_category":{"category":"equipment","group":"Attachments"}},"components":{"minecraft:display_name":{"value":"item.eotech_sight.name"},"minecraft:icon":{"texture":"eotech_sight"},"minecraft:max_stack_size":1,"tag:is_attachment":{},"tag:is_sight":{},"tag:is_short":{}}}}

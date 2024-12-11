@@ -1,0 +1,182 @@
+{
+    "format_version": "1.20.40",
+    "animations": {
+        "animation.player.guns_variables": {
+            "animation_length": 0.5,
+            "loop": true,
+            "timeline": {
+                "0": [
+                    "v.sight = q.equipped_item_all_tags('slot.weapon.mainhand', 'allow_sight') ? (q.is_item_name_any('slot.inventory', 0, 'gabrielaplok:eotech_sight') ? 1 : (q.is_item_name_any('slot.inventory', 0, 'gabrielaplok:acog_sight') ? 2 : (q.is_item_name_any('slot.inventory', 0, 'gabrielaplok:scope_hp') ? 3 : (q.is_item_name_any('slot.inventory', 0, 'gabrielaplok:scope_lp') ? 4 : 0)))) : 0;"
+                ]
+            }
+        },
+        "animation.player.ak47_reload": {
+            "animation_length": 2,
+            "loop": true,
+            "timeline": {
+                "0.2083": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.7083": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.5833": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.7083": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.awp_reload": {
+            "animation_length": 2.125,
+            "loop": true,
+            "timeline": {
+                "0": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "0.125": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.25": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.625": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.9583": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.125": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.5417": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.625": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.7917": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.desert_eagle_reload": {
+            "animation_length": 1.95833,
+            "loop": true,
+            "timeline": {
+                "0.4375": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.75": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.125": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.3125": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.5625": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.6875": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.fnfal_reload": {
+            "animation_length": 2,
+            "loop": true,
+            "timeline": {
+                "0.25": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.5": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.0417": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.5417": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.7083": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.m4a1_reload": {
+            "animation_length": 2.25,
+            "loop": true,
+            "timeline": {
+                "0.2917": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "0.5833": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.2917": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.6667": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.875": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.mossberg_reload": {
+            "animation_length": 2.70833,
+            "loop": true,
+            "timeline": {
+                "0.4583": [
+                    "/camerashake add @s 0.04 0.15 rotational"
+                ],
+                "0.9167": [
+                    "/camerashake add @s 0.04 0.15 rotational"
+                ],
+                "1.2917": [
+                    "/camerashake add @s 0.04 0.15 rotational"
+                ],
+                "1.7083": [
+                    "/camerashake add @s 0.04 0.15 rotational"
+                ],
+                "2.125": [
+                    "/camerashake add @s 0.04 0.15 rotational"
+                ],
+                "2.375": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "2.5417": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ]
+            }
+        },
+        "animation.player.mp5a5_reload": {
+            "animation_length": 2.1667,
+            "loop": true,
+            "timeline": {
+                "0.2917": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "0.7917": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.125": [
+                    "/camerashake add @s 0.02 0.15 rotational"
+                ],
+                "1.5": [
+                    "/camerashake add @s 0.06 0.15 rotational"
+                ],
+                "1.8333": [
+                    "/camerashake add @s 0.08 0.15 rotational"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"gabrielaplok:small_stock"},"tags":["crafting_table"],"pattern":["AAA","AAA","AA "],"key":{"A":{"item":"gabrielaplok:gunmetal_ingot"}},"unlock":[{"item":"gabrielaplok:gunmetal_ingot"}],"result":{"item":"gabrielaplok:small_stock"}}}

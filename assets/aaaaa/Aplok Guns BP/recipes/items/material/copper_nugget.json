@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"gabrielaplok:copper_nugget"},"tags":["crafting_table"],"pattern":["A"],"key":{"A":{"item":"minecraft:copper_ingot"}},"unlock":[{"item":"minecraft:copper_ingot"}],"result":{"item":"gabrielaplok:copper_nugget","count":9}}}

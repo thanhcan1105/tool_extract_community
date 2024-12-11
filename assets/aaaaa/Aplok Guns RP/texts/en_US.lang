@@ -1,0 +1,96 @@
+entity.gabrielaplok:explosive_crate_explosion.name=Explosive Crate
+entity.gabrielaplok:landmine_explosion.name=Landmine
+entity.gabrielaplok:bullet.name=Bullet
+
+item.gasmask.name=Gasmask
+item.gasmask.description=Protect from Nausea and Poison
+item.helmet_military.name=Military Helmet
+item.juggernaut_boots.name=Juggernaut Boots
+item.juggernaut_chestplate.name=Juggernaut Chestplate
+item.juggernaut_helmet.name=Juggernaut Helmet
+item.juggernaut_leggings.name=Juggernaut Leggings
+item.nv_goggles.name=Night Vision Goggles
+item.vest_6b3.name=6B3 Body Armor
+
+item.acog_sight.name=ACOG Sight
+item.eotech_sight.name=EOTech Sight
+item.foregrip.name=Foregrip
+item.laser.name=M4A1 Laser
+item.scope_hp.name=HP Scope
+item.scope_Lp.name=LP Scope
+item.silencer.name=Silencer
+
+item.gun_backpack.name=Gun Backpack [Not Working for Now]
+
+item.cooked_flesh.name=Cooked Flesh
+
+item.bullet_9x19pr.name=9x19mm Parabellum Bullet
+item.bullet_12gauge.name=12 Gauge Cartridge
+item.bullet_50ae.name=.50 AE Cartridge
+item.bullet_556x45.name=5.56x45mm NATO Bullet
+item.bullet_762x39.name=7.62x39mm Bullet
+item.bullet_762x51.name=7.62x51mm NATO Bullet
+
+item.ak47.name=AK-47
+item.awp.name=AWP
+item.desert_eagle.name=Desert Eagle
+item.fnfal.name=FN FAL
+item.glock17.name=Glock 17
+item.glock18.name=Glock 18c
+item.m4a1.name=M4A1
+item.mossberg.name=Mossberg 500
+item.mp5a5.name=HK MP5-A5
+
+item.ak47_mag.name=AK-47 30rnd Mag [7.62x39mm]
+item.awp_mag.name=AWP 10rnd Mag [7.62x51mm NATO]
+item.desert_eagle_mag.name=Desert Eagle 10rnd Mag [.50 AE]
+item.fnfal_mag.name=FN FAL 20rnd Mag [7.62x51mm NATO]
+item.glock17_mag.name=Glock 17 17rnd Mag [9x19mm Parabellum]
+item.glock18_mag.name=Glock 18c 17rnd Mag [9x19mm Parabellum]
+item.m4a1_mag.name=M4A1 30rnd Mag [5.56x45mm NATO]
+item.mp5a5_mag.name=HK MP5-A5 30rnd Mag [9x19mm Parabellum]
+
+item.blueprint_bundle.name=Blueprint Bundle
+item.bullet_gunpowder.name=Bullet Gunpowder
+item.copper_nugget.name=Copper Nugget
+item.gunmetal_ingot.name=Gunmetal Ingot
+item.gunmetal_nugget.name=Gunmetal Nugget
+item.gunmetal_scrap.name=Gunmetal Scrap
+
+item.bandage.name=Bandage
+item.bandage_military.name=Military Bandage
+
+item.heavy_barrel.name=Heavy Barrel
+item.heavy_body.name=Heavy Body
+item.mask_filter.name=Gasmask Filter
+item.medium_barrel.name=Medium Barrel
+item.medium_body.name=Medium Body
+item.medium_handle.name=Medium Handle
+item.medium_stock.name=Medium Stock
+item.small_barrel.name=Small Barrel
+item.small_body.name=Small Body
+item.small_handle.name=Small Handle
+item.small_stock.name=Small Stock
+
+item.m67_grenade.name=M67 Grenade [Experimental]
+
+tile.hazard_block.name=Hazard Block
+tile.hedgehog.name=Czech hedgehog
+tile.landmine.name=Landmine
+tile.metal_rack.name=Metal Rack
+tile.sandbag.name=Sandbag
+tile.wooden_barricade.name=Wooden Barricade
+tile.wooden_crate.name=Wooden Crate
+
+tile.ammo_crate.name=Ammo Crate
+tile.explosive_crate.name=Explosive Crate
+tile.workbench.name=Gun Workbench
+
+game.message.welcome_1=Aplok Guns V1.0.7
+game.message.welcome_2=Owner and Developer: §b@GabrielAplok
+game.message.welcome_3=Distributor: §a@MCPEDL§r and §a@modbay_
+game.message.welcome_4=Discord Server: §bhttps://gabriel-aplok.github.io/discord
+game.message.welcome_5=§o§eThe best survival-friendly military armament experience in Minecraft Bedrock!
+game.message.welcome_6=§oThank you for supporting me! And please read all info from this article §ahttps://gabriel-aplok.github.io/projects/aplok-guns.html§c before ask me any ordinary question.
+
+game.tip.reloading=> RELOADING <

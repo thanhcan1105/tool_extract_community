@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"gabrielaplok:guns_fix"},"tags":["crafting_table"],"pattern":["AAA","ABA","AAA"],"key":{"A":{"item":"minecraft:iron_nugget"},"B":{"item":"minecraft:diamond"}},"unlock":[{"item":"minecraft:iron_nugget"}],"result":{"item":"gabrielaplok:guns_fix"}}}

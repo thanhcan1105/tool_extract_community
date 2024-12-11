@@ -1,0 +1,95 @@
+{
+    "format_version": "1.20.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "gabrielaplok:hedgehog",
+            "menu_category": {
+                "category": "construction",
+                "group": "Deco"
+            },
+            "states": {
+                "gabrielaplok:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 8
+            },
+            "minecraft:display_name": "tile.hedgehog.name",
+            "minecraft:geometry": "geometry.hedgehog",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hedgehog",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:on_player_placing": {
+                "event": "gabrielaplok:rotation"
+            },
+            "tag:metal": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 0",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 1",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 2",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('gabrielaplok:rotation') == 3",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "events": {
+            "gabrielaplok:rotation": {
+                "set_block_state": {
+                    "gabrielaplok:rotation": "q.cardinal_facing_2d - 2"
+                }
+            }
+        }
+    }
+}

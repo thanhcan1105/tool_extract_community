@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:attachable":{"description":{"identifier":"gabrielaplok:fnfal","materials":{"default":"entity_alphatest"},"textures":{"default":"textures/misc/none"},"geometry":{"default":"geometry.none"},"render_controllers":[{"controller.render.default":false}]}}}

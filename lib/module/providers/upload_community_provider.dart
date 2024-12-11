@@ -54,13 +54,13 @@ class UploadCommunityProvider with ChangeNotifier {
   Future<void> _extractAddon() async {
     await Future.delayed(const Duration(milliseconds: 50));
     await _handleExtractData();
-    // await _handleDataEntity();
-    await _handleDataBlock();
+    await _handleDataEntity();
+    // await _handleDataBlock();
     notifyListeners();
   }
 
   Future<void> _handleExtractData() async {
-    final bytes = await rootBundle.load("assets/HelicoptersFunctionalFlying.zip");
+    final bytes = await rootBundle.load("assets/aaaaa.zip");
 
     Archive archiveRaw = ZipDecoder().decodeBytes(bytes.buffer.asUint8List());
     Archive archive = Archive();
@@ -224,8 +224,11 @@ class UploadCommunityProvider with ChangeNotifier {
       // get texture
       var data = fileContent['minecraft:client_entity']['description']['textures'].values.first;
       if (_modelAllDataAddon.listTextureRP.isNotEmpty) {
-        var ttContext = _modelAllDataAddon.listTextureRP.firstWhere((element) => element.name!.contains("$data.png")).data!.content;
-        defaultData.textureRP = AddonDataModel(name: data, data: ttContext.toString());
+        // print("?????? ${_modelAllDataAddon.listTextureRP.length}");
+        print("?????? $data");
+        // var ttContext = _modelAllDataAddon.listTextureRP.firstWhere((element) => element.name!.contains("$data.png")).data!.content;
+        //
+        // defaultData.textureRP = AddonDataModel(name: data, data: ttContext.toString());
       }
 
       //

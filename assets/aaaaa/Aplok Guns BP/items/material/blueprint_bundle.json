@@ -1,0 +1,1 @@
+{"format_version":"1.20.40","minecraft:item":{"description":{"identifier":"gabrielaplok:blueprint_bundle","menu_category":{"category":"items","group":"Material"}},"components":{"minecraft:display_name":{"value":"item.blueprint_bundle.name"},"minecraft:icon":{"texture":"blueprint_bundle"}}}}

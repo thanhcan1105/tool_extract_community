@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shapeless":{"description":{"identifier":"gabrielaplok:m4a1_mag"},"tags":["stonecutter"],"ingredients":[{"item":"gabrielaplok:gunmetal_ingot"}],"unlock":[{"item":"gabrielaplok:gunmetal_ingot"}],"result":{"item":"gabrielaplok:m4a1_mag","count":2}}}

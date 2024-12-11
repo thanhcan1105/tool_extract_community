@@ -1,0 +1,1 @@
+{"format_version":"1.20.40","minecraft:item":{"description":{"identifier":"gabrielaplok:small_handle","menu_category":{"category":"items","group":"Parts"}},"components":{"minecraft:display_name":{"value":"item.small_handle.name"},"minecraft:icon":{"texture":"small_handle"}}}}

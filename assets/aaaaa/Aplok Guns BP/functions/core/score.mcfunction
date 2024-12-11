@@ -1,0 +1,9 @@
+scoreboard objectives add ak47 dummy ak47
+scoreboard objectives add awp dummy awp
+scoreboard objectives add desert_eagle dummy desert_eagle
+scoreboard objectives add fnfal dummy fnfal
+scoreboard objectives add glock17 dummy glock17
+scoreboard objectives add glock18 dummy glock18
+scoreboard objectives add m4a1 dummy m4a1
+scoreboard objectives add mossberg dummy mossberg
+scoreboard objectives add mp5a5 dummy mp5a5

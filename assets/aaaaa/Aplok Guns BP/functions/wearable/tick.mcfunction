@@ -1,0 +1,2 @@
+execute as @a[hasitem={item=gabrielaplok:gasmask, location=slot.armor.head}] run function wearable/gasmask
+execute as @a[hasitem={item=gabrielaplok:juggernaut_chestplate, location=slot.armor.chest}] run function wearable/juggernaut

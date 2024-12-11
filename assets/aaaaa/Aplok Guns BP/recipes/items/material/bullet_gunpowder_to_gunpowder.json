@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shapeless":{"description":{"identifier":"gabrielaplok:bullet_gunpowder_to_gunpowder"},"tags":["crafting_table"],"ingredients":[{"item":"gabrielaplok:bullet_gunpowder","count":4}],"unlock":[{"item":"gabrielaplok:bullet_gunpowder"}],"result":{"item":"minecraft:gunpowder"}}}
