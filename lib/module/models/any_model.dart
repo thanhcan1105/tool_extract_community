@@ -5,6 +5,7 @@ class ModelAllDataAddon {
   List<AddonExtractModel> listBlockBP = [];
   List<AddonExtractModel> listAnimationsBP = [];
   List<AddonExtractModel> listAnimationControllersBP = [];
+  List<AddonExtractModel> listItemsBP = [];
 
   // Resource Pack
   List<AddonExtractModel> listEntityRP = [];
@@ -18,26 +19,34 @@ class ModelAllDataAddon {
   AddonExtractModel blockJsonRP = AddonExtractModel();
 
   ModelAllDataAddon({
+    // Behavior Pack
     List<AddonExtractModel>? listBlockBP,
+    List<AddonExtractModel>? listAnimationsBP,
+    List<AddonExtractModel>? listAnimationControllersBP,
+    List<AddonExtractModel>? listItemsBP,
+
+    // Resource Pack
     List<AddonExtractModel>? listEntityRP,
     List<AddonExtractModel>? listModelRP,
     List<AddonExtractModel>? listTextureRP,
     List<AddonExtractModel>? listAnimationsRP,
     List<AddonExtractModel>? listAnimationControllersRP,
-    List<AddonExtractModel>? listAnimationsBP,
-    List<AddonExtractModel>? listAnimationControllersBP,
     AddonExtractModel? terrainTextureData,
     AddonExtractModel? blockJsonRP,
   }) {
-    // Initialize lists if provided, else use defaults
+    // Behavior Pack
     this.listBlockBP = listBlockBP ?? [];
     this.listAnimationsBP = listAnimationsBP ?? [];
     this.listAnimationControllersBP = listAnimationControllersBP ?? [];
+    this.listItemsBP = listItemsBP ?? [];
+
+    // Resource Pack
     this.listEntityRP = listEntityRP ?? [];
     this.listModelRP = listModelRP ?? [];
     this.listTextureRP = listTextureRP ?? [];
     this.listAnimationsRP = listAnimationsRP ?? [];
     this.listAnimationControllersRP = listAnimationControllersRP ?? [];
+
     this.terrainTextureData = terrainTextureData ?? AddonExtractModel();
     this.blockJsonRP = blockJsonRP ?? AddonExtractModel();
   }
